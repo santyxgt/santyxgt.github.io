@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 6em;
+    color: #d32f2f;
+    margin-left: -200px; /* Mueve el texto ligeramente hacia la izquierda */
+    margin-bottom: 50px; /* Agrega espacio debajo del título */
+  /* Alinea el texto a la izquierda dentro de su contenedor */
+}
+
+.gifs_container {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%; 
+    align-items: center;
+}
+
+.porito_container img,
+.porito_container2 img,
+.gif_tata img {
+    width: 120%;
+    max-width: 1000px; /* Establece un tamaño máximo para las imágenes */
+    height: auto;
+}
+
+.gif_tata {
+    position: relative;
+    top: -20px; /* Eleva el GIF de Tata ligeramente */
+}
